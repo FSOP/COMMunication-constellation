@@ -1,0 +1,6 @@
+2_Python_Port/results/
+__pycache__/
+*.pyc
+*.pyo
+*.mat
+1_Finding_N/test0706.asv
