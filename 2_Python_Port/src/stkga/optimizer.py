@@ -15,8 +15,8 @@ class STKProblem(Problem):
         # ma_spacing   15-30 deg  -> sats/plane 12-24
         # inter_plane_phase 0-180 deg
         super().__init__(n_var=3, n_obj=2, n_ieq_constr=0,
-                         xl=np.array([20.0, 15.0,   0.0]),
-                         xu=np.array([45.0, 30.0, 180.0]))
+                         xl=np.array([10.0, 15.0,   0.0]),
+                         xu=np.array([35.0, 30.0, 45.0]))
         self.evaluator = evaluator
 
     def _evaluate(self, X, out, *args, **kwargs):
